@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    font-size: 1.2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    --nav-primary: rgb(226, 102, 0);
+    --text-primary: rgb(0, 0, 0);
+    --text-secondary: rgb(255, 255, 255);
+    --bg-color: rgb(70, 6, 38);
+}
+
+
+body {
+    /* Bacground img at home and contacts */
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    background-color: var(--nav-primary);
+    color: var(--text-primary);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--nav-primary);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: rgb(161, 12, 57);
+}
+
+.mainContent {
+    /* Margin top 20% home and contacts */
+    display: flex;
+    justify-content: center;
+    color: var(--text-secondary);
+}
+
+.home {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home > h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.homeSmallWriting {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.homeOrder {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.homeAdress {
+    display: flex;
+    flex-direction: column;
+}
+
+.adressItem {
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.adressImg {
+    margin-right: 10px;
+}
+
+.secondHour {
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: rgb(196, 170, 138);
+    border-radius: 10px;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: calc(200px + 0.5vw);
+    height: calc(200px + 0.5vw);
+}
+
+.menuContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.menuTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuTop + .menuBot {
+    margin-top: 10px;
+    border-top: 2px dashed black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 1.3rem;
+}
+
+.phone + .contactAdress {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactImg {
+    width: 35vw;
+    height: 55vh;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerWriting {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
