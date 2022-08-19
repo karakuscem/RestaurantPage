@@ -23,7 +23,7 @@ function contact() {
     contact.appendChild(contactAdress);
 
     const contactImg = document.createElement("img");
-    contactImg.src = "../img/loc.png"
+    contactImg.src = "img/loc.png"
     contact.appendChild(contactImg);
 
     const footerDate = document.querySelector(".footerDate")

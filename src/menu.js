@@ -39,7 +39,7 @@ function menu() {
         menuItem.appendChild(img);
 
         const image = document.createElement("img");
-        image.src = `../img/${i}.png`;
+        image.src = `img/${i}.png`;
         img.appendChild(image);
 
         const menuContent = document.createElement("div")
