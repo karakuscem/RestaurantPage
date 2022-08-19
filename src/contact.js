@@ -1,5 +1,5 @@
 function contact() {
-    document.body.style.background = "url(../img/background.jpg)"
+    document.body.style.background = "url(img/background.jpg)"
     document.body.style.backgroundRepeat = "no-repeat"
     document.body.style.backgroundSize = "1920px 1080px"
     const content = document.querySelector(".content");
