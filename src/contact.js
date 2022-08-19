@@ -1,7 +1,7 @@
 function contact() {
-    document.body.style.background = "url(img/background.jpg)"
-    document.body.style.backgroundRepeat = "no-repeat"
-    document.body.style.backgroundSize = "1920px 1080px"
+    document.body.style.background = "url(img/background.jpg)";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "2133px 1205px";
     const content = document.querySelector(".content");
     const mainContent = document.createElement("div");
     content.innerHTML = "";
@@ -23,14 +23,16 @@ function contact() {
     contact.appendChild(contactAdress);
 
     const contactImg = document.createElement("img");
-    contactImg.src = "img/loc.png"
+    contactImg.src = "img/loc.png";
+    contactImg.style.width = "25vw";
+    contactImg.style.height = "45vh";
     contact.appendChild(contactImg);
 
     const footerDate = document.querySelector(".footerDate")
     footerDate.innerHTML = new Date().getFullYear();
     
     const footer = document.querySelector("footer")
-    footer.style.marginTop = "295px"
+    footer.style.marginTop = "250px"
 }
 
 export default contact

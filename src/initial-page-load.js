@@ -1,7 +1,7 @@
 function homePage() {
-    document.body.style.background = "url(img/background.jpg)"
-    document.body.style.backgroundRepeat = "no-repeat"
-    document.body.style.backgroundSize = "1920px 1080px"
+    document.body.style.background = "url(img/background.jpg)";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "2133px 1205px";
     const content = document.querySelector(".content");
     const mainContent = document.createElement("div");
     content.innerHTML = "";
