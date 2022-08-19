@@ -13,13 +13,11 @@
 
 body {
     /* Bacground img at home and contacts */
-    background: url(img/background.jpg);
+    background: var(--bg-color);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
 }
 
 .header {
