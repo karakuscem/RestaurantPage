@@ -13,7 +13,7 @@
 
 body {
     /* Bacground img at home and contacts */
-    background: url(../img/background.jpg);
+    background: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     display: flex;
